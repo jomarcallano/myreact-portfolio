@@ -22,9 +22,9 @@ export default function Hero() {
                         HIRE ME
                     </Link>
 
-                    <button className="w-full sm:w-auto border border-slate-300 dark:border-slate-700 px-8 py-4 font-bold uppercase tracking-widest text-xs hover:bg-slate-100 dark:hover:bg-gray-800 transition-all">
+                    <a href="/JomarReyCallano.pdf" download className="w-full sm:w-auto border border-slate-300 dark:border-slate-700 px-8 py-4 font-bold uppercase tracking-widest text-xs hover:bg-slate-100 dark:hover:bg-gray-800 transition-all">
                         DOWNLOAD RESUME
-                    </button>
+                    </a>
                 </div>
 
                 <div className="flex flex-row justify-center mt-12 gap-8">
