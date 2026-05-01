@@ -1,5 +1,14 @@
 export const projects = [
     {
+        title: "PWNED Official",
+        status: "ACTIVE",
+        description: "A modern streetwear e-commerce platform featuring a polished shopping experience, secure OTP authentication, cart and checkout workflows, order tracking, customer profiles, and an admin dashboard for managing orders and business insights.",
+        image: "/projects/pwned_background.png",
+        tech: ["React", "TypeScript", "Tailwind CSS", "Vite", "Supabase"],
+        github: "",
+        demo: "https://www.pwned-official.com/",
+    },
+    {
         title: "Allison's Burger",
         status: "ACTIVE",
         description: "Food e-commerce system with real-time inventory, kitchen monitoring, and a professional checkout flow.",
