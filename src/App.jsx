@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import { useEffect } from "react";
+import { Analytics } from "@vercel/analytics/react";
 import Home from "./pages/Home";
 import NotFound from "./components/NotFound.jsx";
 import ContactCard from "./components/Layout/ContactCard.jsx";
@@ -29,6 +30,7 @@ function App() {
                 <Route path="/contact" element={<ContactCard />} />
                 <Route path="*" element={<NotFound />} />
             </Routes>
+            <Analytics />
         </BrowserRouter>
     );
 }
